@@ -1,0 +1,61 @@
+<!-- Author: Nahom -->
+<!-- Interactive Web Page with Multiple Programming Concepts -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahom's Interactive Page</title>
+    <style>
+        /* Adding creative styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f8fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e6f7ff;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Programming Fun</h1>
+        <!-- Input field for user to enter their name -->
+        <input type="text" id="nameInput" placeholder="Enter your name" />
+        <!-- Button to trigger the greeting function -->
+        <button onclick="greetUser()">Greet Me</button>
+        
+        <!-- Section to display output -->
+        <div class="result" id="outputArea"></div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="week-13.js"></script>
+</body>
+</html>
